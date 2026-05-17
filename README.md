@@ -47,7 +47,6 @@ Kod źródłowy gry zawiera implementację 12 kluczowych zagadnień z zakresu pr
 10. **Przeciążanie operatorów:** Możliwość dodawania postaci do drużyny za pomocą operatora `+` (metoda `__add__`).
 11. **Programowanie asynchroniczne:** Pętla gry i ataki działające w sposób nieblokujący z wykorzystaniem biblioteki `asyncio` (`async`/`await`).
 12. **Refleksja:** Dynamiczna analiza zdolności klas w trakcie działania programu (sprawdzanie obecności interfejsu leczącego) zrealizowana w metodzie `analyze_team()`.
-
 Dodatkowo na ocenę **BDB**:
 13. **Enkapsulacja**: Zastosowanie `_hp`
 14. **Wyrażenia listowe**: W klasie `Dragon` podczas losowania celu ataku: `alive_members = [m for m in party.members if m.is_alive]`.
